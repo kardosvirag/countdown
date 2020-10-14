@@ -43,30 +43,6 @@ h2{
     margin-top: 15px;
 }
 
-/* Landscape */
-@media only screen 
-  and (max-width: 500px)
-  and (orientation: landscape) {
-
-    h1{
-        font-size: 32px;
-    }
-    
-    h2{
-        font-size: 22px;
-    }
-
-    p{
-        font-size: 12px;
-    }
-    
-    .time{
-        margin-top: 6px;
-    }
-
-}
-
-
 @media only screen and (min-width: 1008px) {
 
     #hero-image{
@@ -99,6 +75,29 @@ h2{
     .time{
         margin-top: 30px;
     }
+}
+
+/* Landscape */
+@media screen 
+  and (max-width: 500px)
+  and (orientation: landscape) {
+
+    h1{
+        font-size: 32px;
+    }
+    
+    h2{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+    
+    .time{
+        margin-top: 6px;
+    }
+
 }
 
 
