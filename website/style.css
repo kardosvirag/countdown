@@ -10,7 +10,7 @@ body, html {
 }
 
 #hero-image{
-    background: url("./img/background.jpg");
+    background: url("./img/hero-mobile.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
@@ -43,18 +43,38 @@ h2{
     margin-top: 15px;
 }
 
-@media (orientation: landscape)
-{
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    h1{
+        font-size: 32px;
+    }
+    
     h2{
-        font-size: 28px;
+        font-size: 22px;
     }
 
-    .time{
-        margin-top: 10px;
+    p{
+        font-size: 12px;
     }
+    
+    .time{
+        margin-top: 6px;
+    }
+
 }
 
+
 @media only screen and (min-width: 1008px) {
+
+    #hero-image{
+        background: url("./img/hero.jpg");
+    }
+
     .hero-text{
         color: white;
         color: #ddbf5f;
