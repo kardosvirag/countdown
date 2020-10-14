@@ -43,6 +43,16 @@ h2{
     margin-top: 15px;
 }
 
+@media (orientation: landscape)
+{
+    h2{
+        font-size: 28px;
+    }
+
+    .time{
+        margin-top: 10px;
+    }
+}
 
 @media only screen and (min-width: 1008px) {
     .hero-text{
